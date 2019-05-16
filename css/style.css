@@ -1,0 +1,41 @@
+
+.linha {
+    margin-bottom: 0;
+    height: 50vh;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.3rem;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+a {
+    color: black;
+}
+
+.climaAtual {
+    display: flex;
+    align-items: center;
+}
+
+.temperaturaAtual {
+    font-size: 5.5rem;
+    font-weight: 100;
+}
+
+.minMaxTemperatura {
+    font-size: 1.2rem;
+}
+
+.seven-day-forecast {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}

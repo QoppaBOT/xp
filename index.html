@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="bairro">
+        
+            <input class="text-center place" id="city" type="text" value="cidade">
+
+    <div class="linha second-linha">
+        <div class="col s8">
+            <div class="weather-text-and-icon">
+                <div>
+                    <i id="weather-icon"></i>
+                </div>
+                <div>
+                    <a id="weather-condition-text"></a>
+                </div>
+
+            </div>
+            <!--Temperatura-->
+            <div>
+                <a class="current-temperature"></a>
+            </div>
+        </div>
+
+        <!--Maxima e minima dia atual-->
+        <div class="col s4 min-max-temperature">
+            <div id="max-temperature"></div>
+            <div id="min-temperature"></div>
+        </div>
+    </div>
+
+    <!--tabela tempo semana-->
+    <div class="seven-day-forecast"></div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
